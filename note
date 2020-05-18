@@ -1,0 +1,10 @@
+
+netstat -ano | find "LISTENING" | find "1337"
+taskkill /pid 5900 /f (or whatever process id)
+//to install specific npm version command
+npm i -g npm@5.5.1
+
+
+git add .
+git commit -m "whatever checkin"
+
